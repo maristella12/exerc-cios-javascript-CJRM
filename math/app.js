@@ -9,9 +9,10 @@ console.log(Math.ceil(area))
 console.log(Math.trunc(area))
 
 // números aleatórios
+
+//jogo o método na constante
+
 const randomNumber = Math.random()
 
-console.log(randomNumber)
+console.log(Math.ceil(randomNumber * 1000))
 
-
-console.log(Math.round(randomNumber * 100))
