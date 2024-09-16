@@ -1,9 +1,9 @@
-const paragraph = document.querySelector('p')
+//const paragraph = document.querySelector('p')
 
 //paragraph.innerText += ' - Texto inserido ' 
 
 const paragraphs = document.querySelectorAll('p')
-// o sinal de "+"" significa que o texto original sera mantido e acrescentado do novo texto 
+// o sinal de "+" significa que o texto original sera mantido e acrescentado do novo texto 
 paragraphs.forEach ((paragraph, index) => {
 paragraph.innerText += ` - Texto modificado ${index +1}`
 
